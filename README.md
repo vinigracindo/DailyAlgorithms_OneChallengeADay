@@ -1,0 +1,1 @@
+### Day 1 - 20220728 - [Encryption](https://www.hackerrank.com/challenges/encryption/problem) - Level: Medium
