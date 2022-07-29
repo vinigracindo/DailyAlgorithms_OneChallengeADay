@@ -1,7 +1,6 @@
 package encryption
 
 import (
-	"fmt"
 	"math"
 	"strings"
 )
@@ -18,7 +17,6 @@ func Encryption(input string) string {
 
 	L := int(axis_x) * int(axis_y)
 	for L < sizeOfInputWithoutSpaces {
-		fmt.Println("etrou")
 		if axis_x < axis_y {
 			axis_x = axis_x + 1
 		} else {
@@ -26,9 +24,6 @@ func Encryption(input string) string {
 		}
 		L = int(axis_x) * int(axis_y)
 	}
-
-	fmt.Println("axis_x:", axis_x)
-	fmt.Println("axis_y:", axis_y)
 
 	inputGrid := make([]string, int(axis_x))
 
@@ -41,7 +36,6 @@ func Encryption(input string) string {
 		}
 		inputGrid[i-1] = text
 	}
-	fmt.Println(inputGrid)
 
 	for i := 0; i < int(axis_y); i++ {
 		for j := 0; j < int(axis_x); j++ {
@@ -55,7 +49,6 @@ func Encryption(input string) string {
 		}
 		output += " "
 	}
-	fmt.Println(output)
 
 	return strings.TrimSpace(output)
 }
