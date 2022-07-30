@@ -1,1 +1,2 @@
 ### Day 1 - 20220728 - [Encryption](https://www.hackerrank.com/challenges/encryption/problem) - Level: Medium
+### Day 2 - 20220729 - [Apple and Orange](https://www.hackerrank.com/challenges/apple-and-orange/problem) - Level: Easy
